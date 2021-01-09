@@ -6,7 +6,7 @@ const MapView = () => {
   return (
     <MapContainer   
       center={{ lat: 27.955075974113427, lng: -15.55527684835571 }}
-      zoom={10}
+      zoom={8}
     >
       <TileLayer
         attribution= '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
